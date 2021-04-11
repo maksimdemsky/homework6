@@ -25,5 +25,6 @@ public class TestBase {
         attachScreenshot("Last screenshot");
         attachPageSource();
         attachAsText("Browser console logs", getConsoleLogs());
+        attachVideo();
     }
 }
