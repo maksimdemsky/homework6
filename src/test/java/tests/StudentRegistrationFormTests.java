@@ -31,9 +31,7 @@ public class StudentRegistrationFormTests extends TestBase {
 
     @Test
     public void openDemoQaSiteAndCheckForm() {
-        step("Open students registration form", () -> {
-            open("https://demoqa.com/automation-practice-form");
-        });
+        step("Open students registration form", () -> open("https://demoqa.com/automation-practice-form"));
 
         step("Student Fill Data", () -> {
             step("Fill common data", () -> {
